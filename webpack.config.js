@@ -1,5 +1,6 @@
 /* global __dirname, require, module*/
 
+// eslint-disable-next-line no-unused-vars
 const webpack = require('webpack');
 const path = require('path');
 const env = require('yargs').argv.env; // use --env with webpack 2
