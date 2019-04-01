@@ -1,5 +1,14 @@
 language: node_js
 node_js:
-  - "node"
-  - "7"
-  - "6"
+  - "lts/*"
+cache: yarn
+jobs:
+  include:
+    - stage: lint
+      name: "Linting"
+      script:
+        - yarn lint
+    - stage: test
+      name: "Test"
+      script:
+        - yarn test
