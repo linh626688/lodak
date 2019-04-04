@@ -10,6 +10,7 @@ A simple lodash implement by GEM's fresher 2019 program
 ## Setup project
 
 1. run `yarn install` to install all dev dependencies
+2. If you are using vscode, please make sure you are using prettier-eslint, (go to Setting, find prettier.eslint->check)
 
 ## Test
 
